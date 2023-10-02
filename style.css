@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    background-color: #5CE1E6;
+}
+@font-face {
+    font-family: benzin-semibold ;
+    src: url(./fonts/benzin-semibold.ttf);
+}
+@font-face {
+    font-family: AnonymousPro-Regular ;
+    src: url(./fonts/AnonymousPro-Regular.ttf);
+}
+@font-face {
+    font-family: Anton-Regular ;
+    src: url(./fonts/Anton-Regular.ttf);
+}
+
+section{
+    height: 1395px;
+    width: 60px;
+    background-color: white;
+    margin: 0 75px 0 20px;
+    position: absolute;
+}
+
+nav object:first-child{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0 40px 0 80px;
+    top: -10px;
+}
+
+nav object{
+position: absolute;
+margin: 0 100px 0 50.4% ;
+bottom: -743px;
+}
+
+.texto1{
+position: absolute;
+left: 62%;
+font-family: benzin-semibold ;
+font-size: 45px;
+font-weight: 800 ;
+top: 300px;
+}
+
+.texto2{
+position: absolute;
+left: 65%;
+font-family: benzin-semibold ;
+font-size: 45px;
+font-weight: 800 ;
+top: 350px;
+}
+
+.invitados{
+    position: absolute;
+    list-style: none;
+    left: 80px;
+    bottom: -440px;
+    font-size: 50px;
+    font-family: AnonymousPro-Regular;
+    font-weight: 800;  
+}
+
+.sitio{
+    position: absolute;
+    list-style: none;
+    left: 80px;
+    bottom: -580px;
+    font-family: AnonymousPro-Regular;
+    font-size: 25px;
+    font-weight: -100;
+}
+
+.musica{
+    position: absolute;
+    top: 1250px;
+    right: 375px;
+    color: white;
+    font-family: Anton-Regular ;
+    font-size: 35px;
+    list-style: none;
+    background-image: url(./img/2.png) ;
+    height: 0.1px;
+    width: 0.01px;
+}
+
+.club{
+    position: absolute;
+    top: 1292px;
+    right: 360px;
+    color: white;
+    font-family: Anton-Regular ;
+    font-size: 35px;
+    list-style: none;
+    background-image: url(./img/2.png) ;
+    height: 0.1px;
+    width: 0.01px;
+}
